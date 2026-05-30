@@ -9,13 +9,10 @@ import database
 BASE_URL = "https://www.eldorado.gg"
 ROBLOX_GAME_ID = "70"
 
-# Daftar Game yang ingin dilacak Item-nya
-TARGET_ROBLOX_GAMES = [
-    "Blox Fruits",
-    "Adopt Me",
-    "Pet Simulator 99",
-    "Murder Mystery 2",
-    "Anime Defenders",
+FORCE_TARGET_GAMES = [
+    "Fisch", 
+    "Blade Ball",
+    "Dress To Impress"
 ]
 
 def extract_listing(r: dict, default_cat: str, source_game: str = "") -> dict:
@@ -24,7 +21,6 @@ def extract_listing(r: dict, default_cat: str, source_game: str = "") -> dict:
     info = r.get("userOrderInfo", {})
     
     title = o.get("offerTitle") or "Unknown"
-    # Modifikasi: Tambahkan tag nama game di judul agar rapi di Dashboard Vercel
     if source_game:
         title = f"[{source_game}] {title}"
 
@@ -41,7 +37,6 @@ def extract_listing(r: dict, default_cat: str, source_game: str = "") -> dict:
     }
 
 async def fetch_flexible_offers(page, category: str, game_id: str) -> list[dict]:
-    # Jalur cepat khusus untuk Account
     url = f"{BASE_URL}/api/flexibleOffers?pageSize=50&category={category}&gameId={game_id}"
     resp = await page.request.get(url)
     data = await resp.json()
@@ -50,7 +45,6 @@ async def fetch_flexible_offers(page, category: str, game_id: str) -> list[dict]
     return [extract_listing(r, category) for r in data["results"]]
 
 async def fetch_predefined_offers(page, category: str, game_id: str) -> list[dict]:
-    # Jalur cepat khusus untuk Robux
     url = f"{BASE_URL}/api/predefinedOffers/game?pageSize=50&category={category}&gameId={game_id}"
     resp = await page.request.get(url)
     data = await resp.json()
@@ -58,82 +52,84 @@ async def fetch_predefined_offers(page, category: str, game_id: str) -> list[dic
         return []
     return [extract_listing(r, category) for r in data["results"]]
 
-async def auto_discover_urls(page, game_names: list[str]) -> dict[str, str]:
-    # Langkah 1: Membaca direktori Eldorado untuk menemukan URL kategori
+async def auto_discover_roblox_games(page) -> dict[str, str]:
     resp = await page.request.get(f"{BASE_URL}/api/library?locale=en-US")
     library = await resp.json()
     
     seen = {}
     if isinstance(library, list):
         for entry in library:
-            if entry.get("gameGroup") != "Roblox":
-                continue
-            
             name = entry.get("menuGameTitle") or entry.get("gameName") or ""
-            
-            if name in game_names:
-                # Coba ambil URL dari API. Jika kosong, kita rakit sendiri!
-                seo_url = entry.get("seoUrl")
-                if not seo_url:
-                    # Mengubah "Blox Fruits" menjadi "blox-fruits"
-                    seo_url = name.lower().replace(" ", "-").replace("'", "")
-                
-                seen[name] = seo_url
-                
-    print(f"  Discovered {len(seen)} category URLs: {seen}")
-    return seen
-    # Langkah 1: Membaca direktori Eldorado untuk menemukan URL kategori
-    resp = await page.request.get(f"{BASE_URL}/api/library?locale=en-US")
-    library = await resp.json()
-    
-    seen = {}
-    if isinstance(library, list):
-        for entry in library:
-            if entry.get("gameGroup") != "Roblox":
+            group = entry.get("gameGroup")
+
+            is_roblox_group = (group == "Roblox")
+            is_forced = any(forced.lower() in name.lower() for forced in FORCE_TARGET_GAMES)
+
+            if not (is_roblox_group or is_forced):
                 continue
-            name = entry.get("menuGameTitle") or entry.get("gameName") or ""
+                
+            if name.lower() in ["roblox", ""]:
+                continue
+                
             seo_url = entry.get("seoUrl")
-            if name in game_names and seo_url:
-                seen[name] = seo_url
+            if not seo_url:
+                seo_url = name.lower().replace(" ", "-").replace("'", "")
+            
+            seen[name] = seo_url
                 
-    print(f"  Discovered {len(seen)} category URLs.")
+    print(f"  [RADAR AKTIF] Ditemukan {len(seen)} game (Otomatis + Paksaan)!")
     return seen
 
 async def fetch_items_via_intercept(page, game_name: str, seo_url: str) -> list[dict]:
-    # Langkah 2: Teknik Interceptor! Membuka halaman dan menyadap API.
     url = f"{BASE_URL}/games/{seo_url}"
     captured_items = []
 
     async def intercept_response(response):
-        # Mencegat semua lalu lintas API di balik layar
         if "api" in response.url.lower() and response.request.method == "GET":
             try:
                 data = await response.json()
-                # Ciri-ciri balasan API yang berisi daftar jualan
                 if isinstance(data, dict) and "results" in data:
                     if len(data["results"]) > 0 and "offer" in data["results"][0]:
                         batch = [extract_listing(r, "Item", game_name) for r in data["results"]]
                         captured_items.extend(batch)
-                        print(f"      [HIT] Disadap {len(batch)} item dari lalu lintas tersembunyi!")
+                        print(f"      [HIT] Disadap +{len(batch)} item! (Total sementara: {len(captured_items)})")
             except:
                 pass
 
-    # Pasang alat penyadap
     page.on("response", intercept_response)
+    print(f"    Membuka: {url}")
     
-    print(f"    Membuka halaman web: {url}")
-    await page.goto(url, wait_until="domcontentloaded", timeout=60000)
-    
-    # Scroll layar ke bawah untuk memancing server mengirimkan data item
-    await page.evaluate("window.scrollTo(0, 1000)")
-    await asyncio.sleep(4) # Tunggu loading jaringan selesai
+    try:
+        await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        await asyncio.sleep(3)
+        
+        previous_height = await page.evaluate("document.body.scrollHeight")
+        stuck_counter = 0
+        
+        while True:
+            await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            await asyncio.sleep(2.5) 
+            
+            new_height = await page.evaluate("document.body.scrollHeight")
+            
+            if new_height == previous_height:
+                stuck_counter += 1
+                if stuck_counter >= 2:
+                    print("      [INFO] Sudah mencapai dasar halaman.")
+                    break
+            else:
+                stuck_counter = 0
+                previous_height = new_height
+            
+    except Exception as e:
+        print(f"      [SKIP] Halaman tidak valid atau timeout.")
 
-    # Lepas alat penyadap
     page.remove_listener("response", intercept_response)
     
-    # Filter duplikat (berjaga-jaga jika API dipanggil 2x oleh web)
     unique_items = {item["id"]: item for item in captured_items if item.get("id")}
-    return list(unique_items.values())
+    hasil_akhir = list(unique_items.values())
+    print(f"    -> TOTAL Item {game_name} yang disadap: {len(hasil_akhir)}")
+    return hasil_akhir
 
 async def scrape_roblox():
     async with Stealth().use_async(async_playwright()) as p:
@@ -147,28 +143,23 @@ async def scrape_roblox():
 
         all_data = {"accounts": [], "items": [], "robux": []}
 
-        # --- 1) ACCOUNTS ---
         print("\n--- Roblox Accounts ---")
         all_data["accounts"] = await fetch_flexible_offers(page, "Account", ROBLOX_GAME_ID)
-        print(f"  Got {len(all_data['accounts'])} accounts")
 
-        # --- 2) URL DISCOVERY ---
-        print("\n--- Auto-Discovering Category URLs ---")
-        game_urls = await auto_discover_urls(page, TARGET_ROBLOX_GAMES)
+        print("\n--- Auto-Discovering Roblox Games ---")
+        game_urls = await auto_discover_roblox_games(page)
 
-        # --- 3) ITEMS (INTERCEPTOR) ---
-        print("\n--- Roblox Items (DOM Interceptor) ---")
+        print("\n--- Scraping Items (DOM Interceptor) ---")
         all_game_items = []
         for game_name, seo_url in game_urls.items():
             print(f"\n  [{game_name}]")
             items = await fetch_items_via_intercept(page, game_name, seo_url)
             all_game_items.extend(items)
+            
         all_data["items"] = all_game_items
 
-        # --- 4) ROBUX ---
         print("\n--- Roblox Robux ---")
         all_data["robux"] = await fetch_predefined_offers(page, "Currency", ROBLOX_GAME_ID)
-        print(f"  Got {len(all_data['robux'])} offers")
 
         await browser.close()
         return all_data
@@ -189,8 +180,12 @@ def main():
     print(f"\n=== Summary ===")
     print(f"Duration: {elapsed:.1f}s")
     print(f"Accounts: {len(data.get('accounts', []))} listings")
-    print(f"Items:    {len(data.get('items', []))} listings (across {len(TARGET_ROBLOX_GAMES)} games)")
+    print(f"Items:    {len(data.get('items', []))} listings")
     print(f"Robux:    {len(data.get('robux', []))} listings")
+
+    database.export_dashboard_json()
+    summary = database.get_date_summary()
+    print(f"\nDatabase: {summary['total']} total records for {summary['date']}")
 
 if __name__ == "__main__":
     main()
