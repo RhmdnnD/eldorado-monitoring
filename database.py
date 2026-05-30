@@ -81,6 +81,7 @@ def get_best_sellers(limit: int = 10) -> list[dict]:
                 AND y.scraped_date = ?
             WHERE t.scraped_date = ?
               AND y.quantity > t.quantity
+              AND t.title NOT GLOB '*[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]*'
             ORDER BY units_sold DESC
             LIMIT ?
         """, (yesterday, today, limit)).fetchall()
