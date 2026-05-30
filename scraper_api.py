@@ -87,7 +87,11 @@ async def scrape_roblox():
         print("\n--- Roblox Accounts ---")
         all_data["accounts"] = await fetch_flexible_offers(page, "Account")
 
-        # 2) Robux (Currency) via predefinedOffers
+        # 2) Items
+        print("\n--- Roblox Items ---")
+        all_data["items"] = await fetch_flexible_offers(page, "Item")
+
+        # 3) Robux (Currency) via predefinedOffers
         print("\n--- Roblox Robux ---")
         robux_url = f"{BASE_URL}/api/predefinedOffers/game?pageSize=50&category=Currency&gameId={ROBLOX_GAME_ID}"
         resp = await page.request.get(robux_url)
@@ -112,10 +116,13 @@ def main():
         database.save_listings(data["accounts"], "Account")
     if data.get("robux"):
         database.save_listings(data["robux"], "Currency")
+    if data.get("items"):
+        database.save_listings(data["items"], "Item")
 
     print(f"\n=== Summary ===")
     print(f"Duration: {elapsed:.1f}s")
     print(f"Accounts: {len(data.get('accounts', []))} listings")
+    print(f"Items:    {len(data.get('items', []))} listings")
     print(f"Robux:    {len(data.get('robux', []))} listings")
 
     print(f"\n=== Daily Best Sellers (Qty Delta) ===")
