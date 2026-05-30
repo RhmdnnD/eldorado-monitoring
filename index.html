@@ -54,16 +54,30 @@
     }
 
     function render(data) {
+      const items = data.best_sellers || [];
+      const top = items.reduce((a, b) => (a.units_sold || 0) >= (b.units_sold || 0) ? a : b, items[0] || null);
+      const totalVolume = items.reduce((s, r) => s + (r.units_sold || 0), 0);
+      const cats = new Set(items.map(r => r.category).filter(Boolean));
+
       const stats = [
-        { label: 'Date', value: data.date },
-        { label: 'Listings Tracked', value: data.total_records.toLocaleString() },
-        { label: 'Best Sellers', value: data.best_sellers.length },
-        { label: 'Updated', value: new Date(data.updated_at).toLocaleString() },
+        {
+          label: 'Top Item \u{1F3C6}',
+          value: top
+            ? (top.title || '').length > 25
+              ? top.title.slice(0, 25) + '...'
+              : top.title
+            : 'N/A',
+          sub: top ? `Sold: ${top.units_sold} units` : '',
+        },
+        { label: 'Total Volume \u{1F4C8}', value: totalVolume.toLocaleString(), sub: 'units sold today' },
+        { label: 'Active Categories \u{1F5C2}\uFE0F', value: cats.size, sub: 'categories with sales' },
+        { label: 'Total Tracked \u{1F3AF}', value: data.total_records.toLocaleString(), sub: 'listings in DB' },
       ];
       document.getElementById('stats').innerHTML = stats.map(s => `
         <div class="bg-gray-900 rounded-xl border border-gray-800 p-4">
           <div class="text-gray-400 text-xs uppercase tracking-wide">${s.label}</div>
-          <div class="text-lg font-semibold mt-1 text-emerald-400">${s.value}</div>
+          <div class="text-lg font-semibold mt-1 text-emerald-400" title="${esc(s.value)}">${esc(s.value)}</div>
+          ${s.sub ? `<div class="text-gray-500 text-xs mt-0.5">${esc(s.sub)}</div>` : ''}
         </div>
       `).join('');
 
