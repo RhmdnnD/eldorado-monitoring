@@ -1,4 +1,4 @@
-import sqlite3, datetime
+import sqlite3, datetime, json
 from pathlib import Path
 
 DB_PATH = Path(__file__).parent / "eldorado.db"
@@ -27,7 +27,7 @@ def setup():
             )
         """)
         conn.execute("""
-            CREATE INDEX IF NOT EXISTS idx_listings_id_date
+            CREATE UNIQUE INDEX IF NOT EXISTS idx_listings_id_date
             ON listings(listing_id, scraped_date)
         """)
         conn.execute("""
@@ -55,7 +55,7 @@ def save_listings(records: list[dict], category: str):
             for r in records
         ]
         conn.executemany("""
-            INSERT INTO listings
+            INSERT OR REPLACE INTO listings
                 (listing_id, title, category, price_usd, seller,
                  quantity, total_orders, is_verified, scraped_date, scraped_at)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
@@ -85,6 +85,19 @@ def get_best_sellers(limit: int = 10) -> list[dict]:
             LIMIT ?
         """, (yesterday, today, limit)).fetchall()
     return [dict(r) for r in rows]
+
+def export_dashboard_json(limit: int = 50):
+    best = get_best_sellers(limit)
+    summary = get_date_summary()
+    payload = {
+        "updated_at": datetime.datetime.utcnow().isoformat(),
+        "date": summary["date"],
+        "total_records": summary["total"],
+        "best_sellers": best,
+    }
+    path = Path(__file__).parent / "dashboard.json"
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"  Exported {len(best)} best sellers to dashboard.json")
 
 def get_date_summary(date: str | None = None) -> dict:
     date = date or datetime.date.today().isoformat()

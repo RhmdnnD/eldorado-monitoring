@@ -121,6 +121,8 @@ def main():
     print(f"\n=== Daily Best Sellers (Qty Delta) ===")
     print_best_sellers()
 
+    database.export_dashboard_json()
+
     summary = database.get_date_summary()
     print(f"\nDatabase: {summary['total']} total records for {summary['date']}")
 

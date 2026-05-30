@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roblox Daily Best Sellers — Eldorado Monitor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-950 text-gray-100 min-h-screen">
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <header class="mb-8">
+      <h1 class="text-2xl font-bold text-emerald-400">Roblox Best Sellers</h1>
+      <p class="text-gray-400 text-sm mt-1">Daily sales tracker for Eldorado.gg Roblox listings</p>
+    </header>
+
+    <div id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8"></div>
+
+    <div class="bg-gray-900 rounded-xl border border-gray-800 overflow-hidden">
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-gray-800/50 text-gray-400 uppercase text-xs tracking-wider">
+              <th class="px-4 py-3 text-left">#</th>
+              <th class="px-4 py-3 text-left">Title</th>
+              <th class="px-4 py-3 text-left">Category</th>
+              <th class="px-4 py-3 text-left">Seller</th>
+              <th class="px-4 py-3 text-right">Units Sold</th>
+              <th class="px-4 py-3 text-right">Yesterday</th>
+              <th class="px-4 py-3 text-right">Today</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+      <div id="empty" class="hidden text-center py-12 text-gray-500">No data yet. Run the scraper first.</div>
+    </div>
+
+    <footer class="mt-6 text-center text-xs text-gray-600">
+      <span id="footer-info"></span>
+    </footer>
+  </div>
+
+  <script>
+    async function load() {
+      try {
+        const res = await fetch('dashboard.json');
+        if (!res.ok) throw new Error('Not found');
+        const data = await res.json();
+        render(data);
+      } catch {
+        document.getElementById('table-body').innerHTML = '';
+        document.getElementById('empty').classList.remove('hidden');
+      }
+    }
+
+    function render(data) {
+      const stats = [
+        { label: 'Date', value: data.date },
+        { label: 'Listings Tracked', value: data.total_records.toLocaleString() },
+        { label: 'Best Sellers', value: data.best_sellers.length },
+        { label: 'Updated', value: new Date(data.updated_at).toLocaleString() },
+      ];
+      document.getElementById('stats').innerHTML = stats.map(s => `
+        <div class="bg-gray-900 rounded-xl border border-gray-800 p-4">
+          <div class="text-gray-400 text-xs uppercase tracking-wide">${s.label}</div>
+          <div class="text-lg font-semibold mt-1 text-emerald-400">${s.value}</div>
+        </div>
+      `).join('');
+
+      const tbody = document.getElementById('table-body');
+      if (!data.best_sellers.length) {
+        tbody.innerHTML = '';
+        document.getElementById('empty').classList.remove('hidden');
+        return;
+      }
+      document.getElementById('empty').classList.add('hidden');
+      tbody.innerHTML = data.best_sellers.map((r, i) => `
+        <tr class="border-t border-gray-800 hover:bg-gray-800/30">
+          <td class="px-4 py-3 text-gray-500">${i + 1}</td>
+          <td class="px-4 py-3 font-medium">${esc(r.title || '—')}</td>
+          <td class="px-4 py-3"><span class="px-2 py-0.5 rounded text-xs bg-gray-800 text-gray-300">${esc(r.category)}</span></td>
+          <td class="px-4 py-3 text-gray-400">${esc(r.seller || '—')}</td>
+          <td class="px-4 py-3 text-right text-emerald-400 font-bold">+${r.units_sold}</td>
+          <td class="px-4 py-3 text-right text-gray-500">${r.qty_yesterday}</td>
+          <td class="px-4 py-3 text-right text-gray-300">${r.qty_today}</td>
+        </tr>
+      `).join('');
+
+      document.getElementById('footer-info').textContent = `Last updated: ${new Date(data.updated_at).toISOString()}`;
+    }
+
+    function esc(s) {
+      const div = document.createElement('div');
+      div.textContent = s;
+      return div.innerHTML;
+    }
+
+    load();
+  </script>
+</body>
+</html>
