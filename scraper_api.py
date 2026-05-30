@@ -4,6 +4,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace") if hasattr(sys.stdout
 import asyncio, json, time
 from playwright.async_api import async_playwright
 from playwright_stealth import Stealth
+import database
 
 BASE_URL = "https://www.eldorado.gg"
 ROBLOX_GAME_ID = "70"
@@ -39,6 +40,20 @@ def extract_robux(r: dict) -> dict:
         "is_verified": u.get("isVerifiedSeller"),
         "category": "Currency",
     }
+
+def print_best_sellers():
+    best = database.get_best_sellers()
+    if not best:
+        print("\n  No best-seller data yet (need 2+ days of records)")
+        return
+    print("\n  " + "="*70)
+    print(f"  {'Rank':<6} {'Title':<36} {'Sold':>8} {'Category':<12}")
+    print("  " + "-"*70)
+    for i, r in enumerate(best, 1):
+        title = (r["title"] or "")[:34]
+        units = r["units_sold"]
+        print(f"  {i:<6} {title:<36} {units:>8} {r['category']:<12}")
+    print("  " + "="*70)
 
 async def fetch_flexible_offers(page, category: str, max_pages: int = 5) -> list[dict]:
     results = []
@@ -87,15 +102,27 @@ async def scrape_roblox():
         await browser.close()
         return all_data
 
-if __name__ == "__main__":
+def main():
+    database.setup()
     t0 = time.time()
     data = asyncio.run(scrape_roblox())
     elapsed = time.time() - t0
+
+    if data.get("accounts"):
+        database.save_listings(data["accounts"], "Account")
+    if data.get("robux"):
+        database.save_listings(data["robux"], "Currency")
+
     print(f"\n=== Summary ===")
     print(f"Duration: {elapsed:.1f}s")
     print(f"Accounts: {len(data.get('accounts', []))} listings")
     print(f"Robux:    {len(data.get('robux', []))} listings")
-    if data.get("accounts"):
-        print("\nSample account:", json.dumps(data["accounts"][0], indent=2, ensure_ascii=False))
-    if data.get("robux"):
-        print("\nSample robux:", json.dumps(data["robux"][0], indent=2, ensure_ascii=False))
+
+    print(f"\n=== Daily Best Sellers (Qty Delta) ===")
+    print_best_sellers()
+
+    summary = database.get_date_summary()
+    print(f"\nDatabase: {summary['total']} total records for {summary['date']}")
+
+if __name__ == "__main__":
+    main()
