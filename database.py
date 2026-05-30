@@ -68,13 +68,13 @@ def get_best_sellers(limit: int = 10) -> list[dict]:
     with get_connection() as conn:
         rows = conn.execute("""
             SELECT
-                t.listing_id,
+                MAX(t.listing_id) AS listing_id,
                 t.title,
-                t.category,
-                t.seller,
-                t.quantity AS qty_today,
-                y.quantity AS qty_yesterday,
-                (y.quantity - t.quantity) AS units_sold
+                MAX(t.category) AS category,
+                MAX(t.seller) AS seller,
+                SUM(t.quantity) AS qty_today,
+                SUM(y.quantity) AS qty_yesterday,
+                SUM(y.quantity - t.quantity) AS units_sold
             FROM listings t
             JOIN listings y
                 ON t.listing_id = y.listing_id
@@ -82,6 +82,7 @@ def get_best_sellers(limit: int = 10) -> list[dict]:
             WHERE t.scraped_date = ?
               AND y.quantity > t.quantity
               AND t.title NOT GLOB '*[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]*'
+            GROUP BY t.title
             ORDER BY units_sold DESC
             LIMIT ?
         """, (yesterday, today, limit)).fetchall()
