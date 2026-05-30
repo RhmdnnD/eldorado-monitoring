@@ -62,7 +62,31 @@ def save_listings(records: list[dict], category: str):
         """, rows)
         print(f"  Saved {len(rows)} {category} records to database")
 
-def get_best_sellers(limit: int = 10) -> list[dict]:
+def get_best_sellers(limit: int = 50) -> list[dict]: # Limit diubah ke 50
+    today = datetime.date.today().isoformat()
+    yesterday = (datetime.date.today() - datetime.timedelta(days=1)).isoformat()
+    with get_connection() as conn:
+        rows = conn.execute("""
+            SELECT
+                MAX(t.listing_id) AS listing_id,
+                t.title,
+                MAX(t.category) AS category,
+                MAX(t.seller) AS seller,
+                SUM(t.quantity) AS qty_today,
+                SUM(y.quantity) AS qty_yesterday,
+                SUM(y.quantity - t.quantity) AS units_sold
+            FROM listings t
+            JOIN listings y
+                ON t.listing_id = y.listing_id
+                AND y.scraped_date = ?
+            WHERE t.scraped_date = ?
+              AND y.quantity > t.quantity
+              AND t.title NOT GLOB '*[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]*'
+            GROUP BY t.title
+            ORDER BY units_sold DESC
+            LIMIT ?
+        """, (yesterday, today, limit)).fetchall()
+    return [dict(r) for r in rows]
     today = datetime.date.today().isoformat()
     yesterday = (datetime.date.today() - datetime.timedelta(days=1)).isoformat()
     with get_connection() as conn:
@@ -110,7 +134,10 @@ def get_date_summary(date: str | None = None) -> dict:
         accounts = conn.execute(
             "SELECT COUNT(*) AS c FROM listings WHERE scraped_date = ? AND category = 'Account'", (date,)
         ).fetchone()["c"]
+        items = conn.execute( # Tambahan untuk menghitung Item
+            "SELECT COUNT(*) AS c FROM listings WHERE scraped_date = ? AND category = 'Item'", (date,)
+        ).fetchone()["c"]
         robux = conn.execute(
             "SELECT COUNT(*) AS c FROM listings WHERE scraped_date = ? AND category = 'Currency'", (date,)
         ).fetchone()["c"]
-    return {"date": date, "total": total, "accounts": accounts, "robux": robux}
+    return {"date": date, "total": total, "accounts": accounts, "items": items, "robux": robux}
