@@ -1,6 +1,7 @@
 import sqlite3, datetime, json
 from pathlib import Path
 
+DB_NAME = Path(__file__).parent / "eldorado.db"
 DB_PATH = Path(__file__).parent / "eldorado.db"
 
 def get_connection() -> sqlite3.Connection:
@@ -141,3 +142,19 @@ def get_date_summary(date: str | None = None) -> dict:
             "SELECT COUNT(*) AS c FROM listings WHERE scraped_date = ? AND category = 'Currency'", (date,)
         ).fetchone()["c"]
     return {"date": date, "total": total, "accounts": accounts, "items": items, "robux": robux}
+
+def cleanup_old_data(days=30):
+    conn = sqlite3.connect(DB_NAME)
+    cursor = conn.cursor()
+    
+    cutoff_date = (datetime.datetime.now() - datetime.timedelta(days=days)).isoformat()
+    
+    cursor.execute('DELETE FROM listings WHERE scraped_date < ?', (cutoff_date[:10],))
+    
+    deleted_count = cursor.rowcount
+    conn.commit()
+    conn.close()
+    
+    if deleted_count > 0:
+        print(f"[Maintenance] Berhasil menghapus {deleted_count} data lama yang berumur lebih dari {days} hari.")
+    return deleted_count

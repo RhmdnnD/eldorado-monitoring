@@ -184,6 +184,7 @@ def main():
     print(f"Robux:    {len(data.get('robux', []))} listings")
 
     database.export_dashboard_json()
+    database.cleanup_old_data(days=30)
     summary = database.get_date_summary()
     print(f"\nDatabase: {summary['total']} total records for {summary['date']}")
 
