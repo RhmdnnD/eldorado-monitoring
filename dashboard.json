@@ -1,87 +1,78 @@
 {
-  "updated_at": "2026-06-07T03:11:35.969270",
-  "date": "2026-06-07",
-  "total_records": 460,
+  "updated_at": "2026-06-08T03:14:28.116181",
+  "date": "2026-06-08",
+  "total_records": 456,
   "best_sellers": [
     {
-      "listing_id": "cd1a64c9-3918-4789-983f-1d15f705c8bd",
-      "title": "✅[Blox Fruits] GODHUMAN⭐LVL 2800⭐All Details Changeable⭐",
+      "listing_id": "2e5536df-8c49-4ec0-e6d0-08deba476139",
+      "title": "ADOPT ME🧪110 Potion💸80K BUCKS",
       "category": "Account",
-      "seller": "TAceOfSpades",
-      "qty_today": 7,
-      "qty_yesterday": 32,
-      "units_sold": 25
+      "seller": "EliteLoot",
+      "qty_today": 62,
+      "qty_yesterday": 95,
+      "units_sold": 33
+    },
+    {
+      "listing_id": "9157a025-2001-4fce-8ca6-d119972db262",
+      "title": "Passport ID verified👑13-15 Age Group👑Voice Chat enabled",
+      "category": "Account",
+      "seller": "Meradon",
+      "qty_today": 62,
+      "qty_yesterday": 94,
+      "units_sold": 32
+    },
+    {
+      "listing_id": "3b868895-3823-4fab-cf41-08de69656b02",
+      "title": "Adopt Me🚀425+POTS🤑350K+B",
+      "category": "Account",
+      "seller": "AloShopAll",
+      "qty_today": 33,
+      "qty_yesterday": 63,
+      "units_sold": 30
+    },
+    {
+      "listing_id": "21e26f86-36d8-48b1-ba29-3d138e8657d4",
+      "title": "🏆 RARE 5-LETTER OG | Roblox Account + Robux Loaded 💎",
+      "category": "Account",
+      "seller": "moxl",
+      "qty_today": 19,
+      "qty_yesterday": 40,
+      "units_sold": 21
+    },
+    {
+      "listing_id": "a98ae41d-386a-4e3c-0c12-08de8681c17f",
+      "title": "[Adopt Me]   140k - 200k Buck 💸 +  200 Age Up Potion 🧪  + Full Access 🗝️",
+      "category": "Account",
+      "seller": "SmartKite-GqVr",
+      "qty_today": 67,
+      "qty_yesterday": 83,
+      "units_sold": 16
+    },
+    {
+      "listing_id": "e5861e04-53f0-431f-1c87-08de6af333e6",
+      "title": "💥Adopt Me - 70-100K+ BUCKS + 85+ POTS",
+      "category": "Account",
+      "seller": "ZyTi0ns",
+      "qty_today": 59,
+      "qty_yesterday": 70,
+      "units_sold": 11
     },
     {
       "listing_id": "3cfde9f6-2fff-424e-2782-08dea12fa0f1",
       "title": "ADOPT ME🧪350 Potion💸260K BUCKS",
       "category": "Account",
       "seller": "EliteLoot",
-      "qty_today": 85,
-      "qty_yesterday": 97,
-      "units_sold": 12
+      "qty_today": 77,
+      "qty_yesterday": 85,
+      "units_sold": 8
     },
     {
-      "listing_id": "e79cd107-16b8-407b-8e2d-08deb250854c",
-      "title": "💎 OG Rare 5-Letter | Clean Roblox Account + Loaded Robux",
+      "listing_id": "3dd4e3f5-67c8-44a0-5811-08dea05fff75",
+      "title": "Account $2M - 2.5MCash💸| Roblox Block Spin - BlockSpin |",
       "category": "Account",
-      "seller": "moxl",
-      "qty_today": 14,
-      "qty_yesterday": 24,
-      "units_sold": 10
-    },
-    {
-      "listing_id": "180af1c0-cda0-4df6-419d-08deb7d2272f",
-      "title": "Adopt Me🔥1000 Pots🔥761k-801k Bucks",
-      "category": "Account",
-      "seller": "Arcade-Arena",
-      "qty_today": 15,
-      "qty_yesterday": 25,
-      "units_sold": 10
-    },
-    {
-      "listing_id": "ac5d2483-7771-4f2f-6328-08de9c4f981d",
-      "title": "BlockSpin | 1M-1.5M Money 💸 | Instant Delivery ⚡️",
-      "category": "Account",
-      "seller": "TroyShop",
-      "qty_today": 2,
-      "qty_yesterday": 11,
-      "units_sold": 9
-    },
-    {
-      "listing_id": "c2e75756-a41d-45e7-addc-533c1da5e534",
-      "title": "Adopt Me🚀375+POTS🤑270K+B",
-      "category": "Account",
-      "seller": "AloShopAll",
-      "qty_today": 12,
-      "qty_yesterday": 21,
-      "units_sold": 9
-    },
-    {
-      "listing_id": "7930cdc2-d7f6-4d5a-0de9-08de655731fe",
-      "title": "Adopt Me🚀150+POTS🤑110K+BUCKS",
-      "category": "Account",
-      "seller": "AloShopAll",
-      "qty_today": 33,
-      "qty_yesterday": 42,
-      "units_sold": 9
-    },
-    {
-      "listing_id": "fa6ea433-2d9d-4f4f-3105-08deaa94a9ff",
-      "title": "BlockSpin | 100K - 250K + Money 💸 | Instant Delivery 💸",
-      "category": "Account",
-      "seller": "princedesu",
-      "qty_today": 2,
-      "qty_yesterday": 7,
-      "units_sold": 5
-    },
-    {
-      "listing_id": "c7d3f440-81a7-48c8-163d-08de80cf18c8",
-      "title": "Adopt me⭐100 Crystal Eggs⭐",
-      "category": "Account",
-      "seller": "CoolLancer509",
-      "qty_today": 5,
-      "qty_yesterday": 10,
+      "seller": "Seablox",
+      "qty_today": 1,
+      "qty_yesterday": 6,
       "units_sold": 5
     },
     {
@@ -89,44 +80,89 @@
       "title": "4 Letter ⚡️",
       "category": "Account",
       "seller": "SupplyMarkt",
-      "qty_today": 6,
-      "qty_yesterday": 11,
+      "qty_today": 1,
+      "qty_yesterday": 6,
       "units_sold": 5
     },
     {
-      "listing_id": "c193a60d-9fc5-402b-84f2-ad2deb5ee63b",
-      "title": "2009.",
+      "listing_id": "180af1c0-cda0-4df6-419d-08deb7d2272f",
+      "title": "Adopt Me🔥1000 Pots🔥761k-801k Bucks",
       "category": "Account",
-      "seller": "Kaka4",
-      "qty_today": 80,
-      "qty_yesterday": 85,
-      "units_sold": 5
+      "seller": "Arcade-Arena",
+      "qty_today": 12,
+      "qty_yesterday": 15,
+      "units_sold": 3
     },
     {
-      "listing_id": "41213634-7cda-40aa-7740-08de6a11281d",
-      "title": "2008⚡️",
+      "listing_id": "6c4777c5-107f-42e1-86a7-5ad394d53442",
+      "title": "🪴 6 - 7 Secret/Limited Plant🪴",
       "category": "Account",
-      "seller": "Parrot",
-      "qty_today": 8,
-      "qty_yesterday": 13,
-      "units_sold": 5
+      "seller": "KimAnhhh",
+      "qty_today": 5,
+      "qty_yesterday": 7,
+      "units_sold": 2
     },
     {
-      "listing_id": "ab5e5578-48d5-4eab-7420-08de80cf19a5",
-      "title": "Blox Fruits | Kitsune Inventory",
+      "listing_id": "1fab2245-48b2-4004-61b2-08de994bc2ce",
+      "title": "💥Adopt Me - 215-240K+ BUCKS+ 270+ POTS",
+      "category": "Account",
+      "seller": "ZyTi0ns",
+      "qty_today": 89,
+      "qty_yesterday": 91,
+      "units_sold": 2
+    },
+    {
+      "listing_id": "888e8496-c888-429f-11ae-08de83724937",
+      "title": "Blox Fruits | 2800 | GodHuman | Yeti Inventory",
       "category": "Account",
       "seller": "StarExeon",
-      "qty_today": 4,
-      "qty_yesterday": 8,
-      "units_sold": 4
+      "qty_today": 2,
+      "qty_yesterday": 4,
+      "units_sold": 2
     },
     {
-      "listing_id": "3dd4e3f5-67c8-44a0-5811-08dea05fff75",
-      "title": "Account $2M - 2.5MCash💸| Roblox Block Spin - BlockSpin |",
+      "listing_id": "3eeb7b1d-6ac0-476a-fdc5-08de8419886c",
+      "title": "Blox Fruits | 2800 | GodHuman | Pain Inventory",
       "category": "Account",
-      "seller": "Seablox",
-      "qty_today": 6,
-      "qty_yesterday": 7,
+      "seller": "StarExeon",
+      "qty_today": 9,
+      "qty_yesterday": 11,
+      "units_sold": 2
+    },
+    {
+      "listing_id": "c7d3f440-81a7-48c8-163d-08de80cf18c8",
+      "title": "Adopt me⭐100 Crystal Eggs⭐",
+      "category": "Account",
+      "seller": "CoolLancer509",
+      "qty_today": 3,
+      "qty_yesterday": 5,
+      "units_sold": 2
+    },
+    {
+      "listing_id": "7930cdc2-d7f6-4d5a-0de9-08de655731fe",
+      "title": "Adopt Me🚀150+POTS🤑110K+BUCKS",
+      "category": "Account",
+      "seller": "AloShopAll",
+      "qty_today": 31,
+      "qty_yesterday": 33,
+      "units_sold": 2
+    },
+    {
+      "listing_id": "68bdeca3-bf62-4f88-a264-1b4a3337bc66",
+      "title": "Adopt Me🚀100+ POTS🤑70-90K BUCKS",
+      "category": "Account",
+      "seller": "AloShopAll",
+      "qty_today": 18,
+      "qty_yesterday": 20,
+      "units_sold": 2
+    },
+    {
+      "listing_id": "13ae7715-210a-4a28-2116-08de6fa6cb83",
+      "title": "Adopt Me⭐1100 potions⭐700k",
+      "category": "Account",
+      "seller": "CoolLancer509",
+      "qty_today": 9,
+      "qty_yesterday": 10,
       "units_sold": 1
     }
   ]
