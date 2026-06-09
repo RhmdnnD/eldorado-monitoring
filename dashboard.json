@@ -1,169 +1,457 @@
 {
-  "updated_at": "2026-06-08T03:14:28.116181",
-  "date": "2026-06-08",
-  "total_records": 456,
+  "updated_at": "2026-06-09T02:48:53.766410",
+  "date": "2026-06-09",
+  "total_records": 406,
   "best_sellers": [
     {
-      "listing_id": "2e5536df-8c49-4ec0-e6d0-08deba476139",
-      "title": "ADOPT ME🧪110 Potion💸80K BUCKS",
-      "category": "Account",
-      "seller": "EliteLoot",
-      "qty_today": 62,
-      "qty_yesterday": 95,
-      "units_sold": 33
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[bridger: Western] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "9157a025-2001-4fce-8ca6-d119972db262",
-      "title": "Passport ID verified👑13-15 Age Group👑Voice Chat enabled",
-      "category": "Account",
-      "seller": "Meradon",
-      "qty_today": 62,
-      "qty_yesterday": 94,
-      "units_sold": 32
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Wizard Alchemy] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "3b868895-3823-4fab-cf41-08de69656b02",
-      "title": "Adopt Me🚀425+POTS🤑350K+B",
-      "category": "Account",
-      "seller": "AloShopAll",
-      "qty_today": 33,
-      "qty_yesterday": 63,
-      "units_sold": 30
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Welcome to Bloxburg] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "21e26f86-36d8-48b1-ba29-3d138e8657d4",
-      "title": "🏆 RARE 5-LETTER OG | Roblox Account + Robux Loaded 💎",
-      "category": "Account",
-      "seller": "moxl",
-      "qty_today": 19,
-      "qty_yesterday": 40,
-      "units_sold": 21
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[War Tycoon] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "a98ae41d-386a-4e3c-0c12-08de8681c17f",
-      "title": "[Adopt Me]   140k - 200k Buck 💸 +  200 Age Up Potion 🧪  + Full Access 🗝️",
-      "category": "Account",
-      "seller": "SmartKite-GqVr",
-      "qty_today": 67,
-      "qty_yesterday": 83,
-      "units_sold": 16
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Volleyball Legends] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "e5861e04-53f0-431f-1c87-08de6af333e6",
-      "title": "💥Adopt Me - 70-100K+ BUCKS + 85+ POTS",
-      "category": "Account",
-      "seller": "ZyTi0ns",
-      "qty_today": 59,
-      "qty_yesterday": 70,
-      "units_sold": 11
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Universal Tower Defense] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "3cfde9f6-2fff-424e-2782-08dea12fa0f1",
-      "title": "ADOPT ME🧪350 Potion💸260K BUCKS",
-      "category": "Account",
-      "seller": "EliteLoot",
-      "qty_today": 77,
-      "qty_yesterday": 85,
-      "units_sold": 8
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Toilet Tower Defense Gems] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "3dd4e3f5-67c8-44a0-5811-08dea05fff75",
-      "title": "Account $2M - 2.5MCash💸| Roblox Block Spin - BlockSpin |",
-      "category": "Account",
-      "seller": "Seablox",
-      "qty_today": 1,
-      "qty_yesterday": 6,
-      "units_sold": 5
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[The Forge] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "4a9dafac-accf-4f17-9505-cf68ecf6ca6e",
-      "title": "4 Letter ⚡️",
-      "category": "Account",
-      "seller": "SupplyMarkt",
-      "qty_today": 1,
-      "qty_yesterday": 6,
-      "units_sold": 5
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Tap Simulator] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "180af1c0-cda0-4df6-419d-08deb7d2272f",
-      "title": "Adopt Me🔥1000 Pots🔥761k-801k Bucks",
-      "category": "Account",
-      "seller": "Arcade-Arena",
-      "qty_today": 12,
-      "qty_yesterday": 15,
-      "units_sold": 3
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Tap Simulator Tokens] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "6c4777c5-107f-42e1-86a7-5ad394d53442",
-      "title": "🪴 6 - 7 Secret/Limited Plant🪴",
-      "category": "Account",
-      "seller": "KimAnhhh",
-      "qty_today": 5,
-      "qty_yesterday": 7,
-      "units_sold": 2
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[TYPE://SOUL] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "1fab2245-48b2-4004-61b2-08de994bc2ce",
-      "title": "💥Adopt Me - 215-240K+ BUCKS+ 270+ POTS",
-      "category": "Account",
-      "seller": "ZyTi0ns",
-      "qty_today": 89,
-      "qty_yesterday": 91,
-      "units_sold": 2
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Swing Obby for Brainrots] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "888e8496-c888-429f-11ae-08de83724937",
-      "title": "Blox Fruits | 2800 | GodHuman | Yeti Inventory",
-      "category": "Account",
-      "seller": "StarExeon",
-      "qty_today": 2,
-      "qty_yesterday": 4,
-      "units_sold": 2
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Survive Lava for Brainrots] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "3eeb7b1d-6ac0-476a-fdc5-08de8419886c",
-      "title": "Blox Fruits | 2800 | GodHuman | Pain Inventory",
-      "category": "Account",
-      "seller": "StarExeon",
-      "qty_today": 9,
-      "qty_yesterday": 11,
-      "units_sold": 2
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Steal a Brainrot] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "c7d3f440-81a7-48c8-163d-08de80cf18c8",
-      "title": "Adopt me⭐100 Crystal Eggs⭐",
-      "category": "Account",
-      "seller": "CoolLancer509",
-      "qty_today": 3,
-      "qty_yesterday": 5,
-      "units_sold": 2
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[SpongeBob Tower Defense] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "7930cdc2-d7f6-4d5a-0de9-08de655731fe",
-      "title": "Adopt Me🚀150+POTS🤑110K+BUCKS",
-      "category": "Account",
-      "seller": "AloShopAll",
-      "qty_today": 31,
-      "qty_yesterday": 33,
-      "units_sold": 2
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Spin a Baddie] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "68bdeca3-bf62-4f88-a264-1b4a3337bc66",
-      "title": "Adopt Me🚀100+ POTS🤑70-90K BUCKS",
-      "category": "Account",
-      "seller": "AloShopAll",
-      "qty_today": 18,
-      "qty_yesterday": 20,
-      "units_sold": 2
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Sorcerer Tower Defense] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     },
     {
-      "listing_id": "13ae7715-210a-4a28-2116-08de6fa6cb83",
-      "title": "Adopt Me⭐1100 potions⭐700k",
-      "category": "Account",
-      "seller": "CoolLancer509",
-      "qty_today": 9,
-      "qty_yesterday": 10,
-      "units_sold": 1
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Sol's RNG] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Sniper Duels Gems] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Sniper Arena] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Slime RNG] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Sailor Piece] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Royale High Diamonds] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Roblox Top Ups] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Roblox Robux] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Roblox Rivals] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Roblox Limiteds] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Roblox Gift Cards] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Re:Rangers X] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Raise Animals] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Plants vs Brainrots] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Pets Go] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Pets Go Diamonds] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Pet Simulator 99] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Pet Simulator 99 Gems] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Noob Tower Defense] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Murderers VS Sheriffs DUELS] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Mini War] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Knockout] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[King Legacy] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Kick a Lucky Block] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[KAIZEN] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Jujutsu Infinite] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Jailbreak] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Ink Game] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Hypershot] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Hunty Zombie] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Grow a Garden] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Grand Piece Online] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
+    },
+    {
+      "listing_id": "b80497f4-eea8-4999-aaa7-06065b6bb9a8",
+      "title": "[Garden Tower Defense] 5.04B 40ModdedCar",
+      "category": "Item",
+      "seller": "-QuickShop",
+      "qty_today": 1020,
+      "qty_yesterday": 1836,
+      "units_sold": 816
     }
   ]
 }
