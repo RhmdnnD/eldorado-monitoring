@@ -1,457 +1,430 @@
 {
-  "updated_at": "2026-06-13T03:05:03.266316",
-  "date": "2026-06-13",
-  "total_records": 464,
+  "updated_at": "2026-06-14T03:17:05.314203",
+  "date": "2026-06-14",
+  "total_records": 453,
   "best_sellers": [
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[bridger: Western] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[War Tycoon] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Wizard Alchemy] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Tap Simulator] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Welcome to Bloxburg] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Swing Obby for Brainrots] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[War Tycoon] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Survive Lava for Brainrots] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Volleyball Legends] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Summon Heroes] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Universal Tower Defense] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[SpongeBob Tower Defense] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Toilet Tower Defense Gems] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Spin a Baddie] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[The Forge] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Sniper Duels Gems] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Tap Simulator] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Sailor Piece] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Tap Simulator Tokens] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Roblox Top Ups] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[TYPE://SOUL] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Re:Rangers X] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Swing Obby for Brainrots] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Garden Horizons] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Survive Lava for Brainrots] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Escape Waves For Lucky Blocks] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Summon Heroes] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Escape Tsunami For Brainrots] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Steal a Brainrot] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Escape Tsunami For Brainrots Trade Tokens] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[SpongeBob Tower Defense] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Devil Hunter] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Spin a Baddie] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Da Hood] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Sorcerer Tower Defense] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Catch And Tame] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Sol's RNG] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Case Paradise] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Sniper Duels Gems] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Break a Lucky Block] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Sniper Arena] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[BloxStrike] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Slime RNG] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[BloxStrike Credits] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Sailor Piece] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Bloodlines] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Royale High Diamonds] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[BlockSpin] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Roblox Top Ups] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Bizarre Lineage] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Roblox Robux] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Baddies] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Roblox Rivals] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Anime Tactical Simulator] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Roblox Limiteds] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[Anime Paradox] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Roblox Gift Cards] FiveM Rockstar",
+      "listing_id": "06cf0969-35bb-494c-75cc-08dec549b85f",
+      "title": "[A Universal Time] Unknown",
       "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "seller": "S7VEN",
+      "qty_today": 1100,
+      "qty_yesterday": 1335,
+      "units_sold": 235
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Re:Rangers X] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "efa4f620-56c9-4967-b7d5-0e6fc4772319",
+      "title": "💥Adopt Me - 300K+ BUCKS + 400+ POTS",
+      "category": "Account",
+      "seller": "ZyTi0ns",
+      "qty_today": 6,
+      "qty_yesterday": 56,
+      "units_sold": 50
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Raise Animals] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "2e5536df-8c49-4ec0-e6d0-08deba476139",
+      "title": "ADOPT ME🧪110 Potion💸80K BUCKS",
+      "category": "Account",
+      "seller": "EliteLoot",
+      "qty_today": 30,
+      "qty_yesterday": 64,
+      "units_sold": 34
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Plants vs Brainrots] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "09f1c33c-4198-402b-92eb-08dec549ba60",
+      "title": "Adopt Me💎70K+ Bucks💎100+ Potions",
+      "category": "Account",
+      "seller": "Ally-GamingStore",
+      "qty_today": 6,
+      "qty_yesterday": 15,
+      "units_sold": 9
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Pets Go] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "fb29ed6a-3d00-4309-ea61-08de8f0f89a8",
+      "title": "Blox Fruits⭐2800⭐Godhuman⭐",
+      "category": "Account",
+      "seller": "CoolLancer509",
+      "qty_today": 6,
+      "qty_yesterday": 14,
+      "units_sold": 8
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Pets Go Diamonds] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "3b868895-3823-4fab-cf41-08de69656b02",
+      "title": "Adopt Me🚀420+POTS🤑320K+BUCKS",
+      "category": "Account",
+      "seller": "AloShopAll",
+      "qty_today": 29,
+      "qty_yesterday": 36,
+      "units_sold": 7
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Pet Simulator 99] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "569594ed-0c73-42f8-3c96-08de994bc2ce",
+      "title": "ROBLOX ACCOUNT with 🏯 | 🏯 50 ROBUX BALANCE",
+      "category": "Account",
+      "seller": "GameXfort",
+      "qty_today": 20,
+      "qty_yesterday": 26,
+      "units_sold": 6
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Pet Simulator 99 Gems] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "13ae7715-210a-4a28-2116-08de6fa6cb83",
+      "title": "Adopt Me⭐1100 potions⭐800k",
+      "category": "Account",
+      "seller": "CoolLancer509",
+      "qty_today": 2,
+      "qty_yesterday": 8,
+      "units_sold": 6
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Noob Tower Defense] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "e79cd107-16b8-407b-8e2d-08deb250854c",
+      "title": "💎 OG Rare 5-Letter | Clean Roblox Account + Loaded Robux",
+      "category": "Account",
+      "seller": "moxl",
+      "qty_today": 19,
+      "qty_yesterday": 24,
+      "units_sold": 5
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Murderers VS Sheriffs DUELS] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "888e8496-c888-429f-11ae-08de83724937",
+      "title": "Blox Fruits | 2800 | GodHuman | Yeti Inventory",
+      "category": "Account",
+      "seller": "StarExeon",
+      "qty_today": 5,
+      "qty_yesterday": 10,
+      "units_sold": 5
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Murder Mystery 2] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "1f568f0c-49b7-4679-54d6-08de914b3933",
+      "title": "✅[Blox Fruits] CDK⭐SG⭐VH⭐MF⭐GODHUMAN⭐LVL 2800⭐All Details Changeable⭐",
+      "category": "Account",
+      "seller": "TAceOfSpades",
+      "qty_today": 4,
+      "qty_yesterday": 8,
+      "units_sold": 4
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Mini War] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "ce02855b-c5b8-46a9-989d-7630575cfb79",
+      "title": "Adopt Me🚀400+POTS🤑340K+B",
+      "category": "Account",
+      "seller": "AloShopAll",
+      "qty_today": 87,
+      "qty_yesterday": 91,
+      "units_sold": 4
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Knockout] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "c193a60d-9fc5-402b-84f2-ad2deb5ee63b",
+      "title": "2009.",
+      "category": "Account",
+      "seller": "Kaka4",
+      "qty_today": 81,
+      "qty_yesterday": 85,
+      "units_sold": 4
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[King Legacy] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "3cfde9f6-2fff-424e-2782-08dea12fa0f1",
+      "title": "ADM🧪150K Compass Coins",
+      "category": "Account",
+      "seller": "EliteLoot",
+      "qty_today": 89,
+      "qty_yesterday": 92,
+      "units_sold": 3
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Kick a Lucky Block] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "4a9dafac-accf-4f17-9505-cf68ecf6ca6e",
+      "title": "4 Letter ⚡️",
+      "category": "Account",
+      "seller": "SupplyMarkt",
+      "qty_today": 5,
+      "qty_yesterday": 8,
+      "units_sold": 3
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[KAIZEN] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "3601af7b-5576-450b-a5ed-08dec549b9c5",
+      "title": "Adopt Me💎120K+ Bucks💎200+ Potions",
+      "category": "Account",
+      "seller": "Ally-GamingStore",
+      "qty_today": 8,
+      "qty_yesterday": 10,
+      "units_sold": 2
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Jujutsu Infinite] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "6c4777c5-107f-42e1-86a7-5ad394d53442",
+      "title": "🪴 6 - 7 Secret/Limited Plant🪴",
+      "category": "Account",
+      "seller": "KimAnhhh",
+      "qty_today": 3,
+      "qty_yesterday": 4,
+      "units_sold": 1
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Jailbreak] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "e5861e04-53f0-431f-1c87-08de6af333e6",
+      "title": "💥Adopt Me - 70-100K+ BUCKS + 85+ POTS",
+      "category": "Account",
+      "seller": "ZyTi0ns",
+      "qty_today": 55,
+      "qty_yesterday": 56,
+      "units_sold": 1
     },
     {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Ink Game] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
-    },
-    {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Hypershot] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
-    },
-    {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Hunty Zombie] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
-    },
-    {
-      "listing_id": "0782e35c-236a-422b-e790-08de7e744f48",
-      "title": "[Grow a Garden] FiveM Rockstar",
-      "category": "Item",
-      "seller": "Smurfstore",
-      "qty_today": 1428,
-      "qty_yesterday": 2652,
-      "units_sold": 1224
+      "listing_id": "41213634-7cda-40aa-7740-08de6a11281d",
+      "title": "2008⚡️",
+      "category": "Account",
+      "seller": "Parrot",
+      "qty_today": 60,
+      "qty_yesterday": 61,
+      "units_sold": 1
     }
   ]
 }
