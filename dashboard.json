@@ -1,222 +1,285 @@
 {
-  "updated_at": "2026-06-28T03:09:34.459348",
-  "date": "2026-06-28",
-  "total_records": 485,
+  "updated_at": "2026-06-29T03:09:56.617547",
+  "date": "2026-06-29",
+  "total_records": 486,
   "best_sellers": [
     {
-      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
-      "title": "[Pet Simulator 99] Unknown",
+      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "title": "[TYPE://SOUL] Unknown",
       "category": "Item",
-      "seller": "MattDot",
-      "qty_today": 493725,
-      "qty_yesterday": 566556,
-      "units_sold": 72831
+      "seller": "lynngameshop",
+      "qty_today": 11544,
+      "qty_yesterday": 14872,
+      "units_sold": 3328
     },
     {
-      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
-      "title": "[Pet Simulator 99 Gems] Unknown",
+      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "title": "[Steal a Brainrot] Unknown",
       "category": "Item",
-      "seller": "MattDot",
-      "qty_today": 493725,
-      "qty_yesterday": 566556,
-      "units_sold": 72831
+      "seller": "lynngameshop",
+      "qty_today": 11544,
+      "qty_yesterday": 14872,
+      "units_sold": 3328
     },
     {
-      "listing_id": "b512347f-caee-4bf6-2785-08debd87b88a",
-      "title": "[VV: Ultimatum] Unknown",
+      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "title": "[Plants vs Brainrots] Unknown",
       "category": "Item",
-      "seller": "Searchy",
-      "qty_today": 259875,
-      "qty_yesterday": 285810,
-      "units_sold": 25935
+      "seller": "lynngameshop",
+      "qty_today": 11544,
+      "qty_yesterday": 14872,
+      "units_sold": 3328
     },
     {
-      "listing_id": "b512347f-caee-4bf6-2785-08debd87b88a",
-      "title": "[Roblox Top Ups] Unknown",
+      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "title": "[Ink Game] Unknown",
       "category": "Item",
-      "seller": "Searchy",
-      "qty_today": 259875,
-      "qty_yesterday": 285810,
-      "units_sold": 25935
+      "seller": "lynngameshop",
+      "qty_today": 11544,
+      "qty_yesterday": 14872,
+      "units_sold": 3328
     },
     {
-      "listing_id": "b512347f-caee-4bf6-2785-08debd87b88a",
-      "title": "[Roblox Robux] Unknown",
+      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "title": "[Hunty Zombie] Unknown",
       "category": "Item",
-      "seller": "Searchy",
-      "qty_today": 259875,
-      "qty_yesterday": 285810,
-      "units_sold": 25935
+      "seller": "lynngameshop",
+      "qty_today": 11544,
+      "qty_yesterday": 14872,
+      "units_sold": 3328
     },
     {
-      "listing_id": "b512347f-caee-4bf6-2785-08debd87b88a",
-      "title": "[Roblox Gift Cards] Unknown",
+      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "title": "[Garden Tower Defense] Unknown",
       "category": "Item",
-      "seller": "Searchy",
-      "qty_today": 259875,
-      "qty_yesterday": 285810,
-      "units_sold": 25935
+      "seller": "lynngameshop",
+      "qty_today": 11544,
+      "qty_yesterday": 14872,
+      "units_sold": 3328
     },
     {
-      "listing_id": "b512347f-caee-4bf6-2785-08debd87b88a",
-      "title": "[Grow a Garden 2 Sheckles] Unknown",
+      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "title": "[Dead Rails] Unknown",
       "category": "Item",
-      "seller": "Searchy",
-      "qty_today": 259875,
-      "qty_yesterday": 285810,
-      "units_sold": 25935
+      "seller": "lynngameshop",
+      "qty_today": 11544,
+      "qty_yesterday": 14872,
+      "units_sold": 3328
     },
     {
-      "listing_id": "b512347f-caee-4bf6-2785-08debd87b88a",
-      "title": "[Build a Ring Farm] Unknown",
+      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "title": "[Creatures of Sonaria] Unknown",
       "category": "Item",
-      "seller": "Searchy",
-      "qty_today": 259875,
-      "qty_yesterday": 285810,
-      "units_sold": 25935
+      "seller": "lynngameshop",
+      "qty_today": 11544,
+      "qty_yesterday": 14872,
+      "units_sold": 3328
     },
     {
-      "listing_id": "b512347f-caee-4bf6-2785-08debd87b88a",
-      "title": "[Broken Blade] Unknown",
+      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "title": "[Build a Zoo] Unknown",
       "category": "Item",
-      "seller": "Searchy",
-      "qty_today": 259875,
-      "qty_yesterday": 285810,
-      "units_sold": 25935
+      "seller": "lynngameshop",
+      "qty_today": 11544,
+      "qty_yesterday": 14872,
+      "units_sold": 3328
     },
     {
-      "listing_id": "b512347f-caee-4bf6-2785-08debd87b88a",
-      "title": "[Anime Squadron] Unknown",
+      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "title": "[All Star Tower Defense X] Unknown",
       "category": "Item",
-      "seller": "Searchy",
-      "qty_today": 259875,
-      "qty_yesterday": 285810,
-      "units_sold": 25935
+      "seller": "lynngameshop",
+      "qty_today": 11544,
+      "qty_yesterday": 14872,
+      "units_sold": 3328
     },
     {
-      "listing_id": "b512347f-caee-4bf6-2785-08debd87b88a",
-      "title": "[Anime Astral Simulator] Unknown",
+      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "title": "[99 Nights in the Forest] Unknown",
       "category": "Item",
-      "seller": "Searchy",
-      "qty_today": 259875,
-      "qty_yesterday": 285810,
-      "units_sold": 25935
+      "seller": "lynngameshop",
+      "qty_today": 11544,
+      "qty_yesterday": 14872,
+      "units_sold": 3328
     },
     {
-      "listing_id": "b512347f-caee-4bf6-2785-08debd87b88a",
-      "title": "[+1 Speed Keyboard Escape] Unknown",
+      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "title": "[99 Nights in the Forest Diamonds] Unknown",
       "category": "Item",
-      "seller": "Searchy",
-      "qty_today": 259875,
-      "qty_yesterday": 285810,
-      "units_sold": 25935
+      "seller": "lynngameshop",
+      "qty_today": 11544,
+      "qty_yesterday": 14872,
+      "units_sold": 3328
     },
     {
-      "listing_id": "cd1a64c9-3918-4789-983f-1d15f705c8bd",
-      "title": "✅[Blox Fruits] GODHUMAN⭐LVL 2800⭐All Details Changeable⭐",
+      "listing_id": "d9b78b19-c3bf-45c6-76d4-08deb63f0f23",
+      "title": "Adopt Me🌰350K+ACORNS🚀185+POTS",
       "category": "Account",
-      "seller": "TAceOfSpades",
-      "qty_today": 4,
-      "qty_yesterday": 28,
-      "units_sold": 24
+      "seller": "AloShopAll",
+      "qty_today": 48,
+      "qty_yesterday": 93,
+      "units_sold": 45
+    },
+    {
+      "listing_id": "2e5536df-8c49-4ec0-e6d0-08deba476139",
+      "title": "ADOPT ME🧪300 Potion💸222K BUCKS",
+      "category": "Account",
+      "seller": "EliteLoot",
+      "qty_today": 48,
+      "qty_yesterday": 86,
+      "units_sold": 38
     },
     {
       "listing_id": "9157a025-2001-4fce-8ca6-d119972db262",
       "title": "Passport ID verified👑13-15 Age Group👑Voice Chat enabled",
       "category": "Account",
       "seller": "Meradon",
-      "qty_today": 60,
-      "qty_yesterday": 83,
-      "units_sold": 23
-    },
-    {
-      "listing_id": "5deb76c9-7259-4024-9ba4-5c1ee6c0ee02",
-      "title": "💥Adopt Me - 280K+ BUCKS + 400+ POTS",
-      "category": "Account",
-      "seller": "ZyTi0ns",
-      "qty_today": 72,
-      "qty_yesterday": 80,
-      "units_sold": 8
+      "qty_today": 39,
+      "qty_yesterday": 60,
+      "units_sold": 21
     },
     {
       "listing_id": "a98ae41d-386a-4e3c-0c12-08de8681c17f",
       "title": "[Adopt Me]   140k - 200k Buck 💸 +  200 Age Up Potion 🧪  + Full Access 🗝️",
       "category": "Account",
       "seller": "SmartKite-GqVr",
-      "qty_today": 70,
-      "qty_yesterday": 78,
-      "units_sold": 8
+      "qty_today": 59,
+      "qty_yesterday": 70,
+      "units_sold": 11
+    },
+    {
+      "listing_id": "cf300710-3752-40df-304b-08ded2a6a87e",
+      "title": "Adopt Me🌰450K+ACORNS🚀300+POTS",
+      "category": "Account",
+      "seller": "AloShopAll",
+      "qty_today": 90,
+      "qty_yesterday": 100,
+      "units_sold": 10
+    },
+    {
+      "listing_id": "21e26f86-36d8-48b1-ba29-3d138e8657d4",
+      "title": "🏆 RARE 5-LETTER OG | Roblox Account + Robux Loaded 💎",
+      "category": "Account",
+      "seller": "moxl",
+      "qty_today": 23,
+      "qty_yesterday": 30,
+      "units_sold": 7
     },
     {
       "listing_id": "0ba27387-4690-4db1-5719-08de841980ae",
       "title": "Blox Fruits | 2800 | GodHuman | Gas Inventory",
       "category": "Account",
       "seller": "StarExeon",
-      "qty_today": 34,
-      "qty_yesterday": 42,
-      "units_sold": 8
-    },
-    {
-      "listing_id": "09f1c33c-4198-402b-92eb-08dec549ba60",
-      "title": "Adopt Me💎70K+ Bucks💎100+ Potions",
-      "category": "Account",
-      "seller": "Ally-GamingStore",
-      "qty_today": 15,
-      "qty_yesterday": 22,
-      "units_sold": 7
-    },
-    {
-      "listing_id": "41213634-7cda-40aa-7740-08de6a11281d",
-      "title": "2008⚡️",
-      "category": "Account",
-      "seller": "Parrot",
-      "qty_today": 1,
-      "qty_yesterday": 6,
-      "units_sold": 5
-    },
-    {
-      "listing_id": "ab5e5578-48d5-4eab-7420-08de80cf19a5",
-      "title": "Blox Fruits | Kitsune Inventory",
-      "category": "Account",
-      "seller": "StarExeon",
-      "qty_today": 11,
-      "qty_yesterday": 14,
-      "units_sold": 3
+      "qty_today": 28,
+      "qty_yesterday": 34,
+      "units_sold": 6
     },
     {
       "listing_id": "2fe06d55-f7be-4ad7-3157-08ded36678d8",
       "title": "Blox Fruits I ✨ Max lvl 2800 + Godhuman ✨ I Unverified I Instant Delivery ✨",
       "category": "Account",
       "seller": "Zenthrox",
-      "qty_today": 73,
-      "qty_yesterday": 76,
-      "units_sold": 3
+      "qty_today": 67,
+      "qty_yesterday": 73,
+      "units_sold": 6
     },
     {
-      "listing_id": "ac5d2483-7771-4f2f-6328-08de9c4f981d",
-      "title": "BlockSpin | 1M-1.5M Money 💸 | Instant Delivery ⚡️",
+      "listing_id": "1f568f0c-49b7-4679-54d6-08de914b3933",
+      "title": "✅[Blox Fruits] CDK⭐SG⭐VH⭐MF⭐GODHUMAN⭐LVL 2800⭐All Details Changeable⭐",
       "category": "Account",
-      "seller": "TroyShop",
-      "qty_today": 43,
-      "qty_yesterday": 46,
-      "units_sold": 3
+      "seller": "TAceOfSpades",
+      "qty_today": 25,
+      "qty_yesterday": 29,
+      "units_sold": 4
     },
     {
-      "listing_id": "12f01574-acc3-46ae-f08f-08deb72d9f39",
-      "title": "🔯4 Letter UNV",
+      "listing_id": "ab5e5578-48d5-4eab-7420-08de80cf19a5",
+      "title": "Blox Fruits | Kitsune Inventory",
       "category": "Account",
-      "seller": "Luffytaro1",
-      "qty_today": 1,
-      "qty_yesterday": 3,
-      "units_sold": 2
+      "seller": "StarExeon",
+      "qty_today": 7,
+      "qty_yesterday": 11,
+      "units_sold": 4
+    },
+    {
+      "listing_id": "c7d3f440-81a7-48c8-163d-08de80cf18c8",
+      "title": "Adopt me⭐100 Crystal Eggs⭐",
+      "category": "Account",
+      "seller": "CoolLancer509",
+      "qty_today": 8,
+      "qty_yesterday": 12,
+      "units_sold": 4
     },
     {
       "listing_id": "4a9dafac-accf-4f17-9505-cf68ecf6ca6e",
       "title": "4 Letter ⚡️",
       "category": "Account",
       "seller": "SupplyMarkt",
+      "qty_today": 2,
+      "qty_yesterday": 6,
+      "units_sold": 4
+    },
+    {
+      "listing_id": "7886d2a7-bd35-48fe-87a2-b0239e8c0121",
+      "title": "🔥 Roblox Account | Created 2009 | Clean • Original • Instant Delivery",
+      "category": "Account",
+      "seller": "Securer",
+      "qty_today": 4,
+      "qty_yesterday": 7,
+      "units_sold": 3
+    },
+    {
+      "listing_id": "4957bf2f-94bc-4a2c-82a2-08de7dd263af",
+      "title": "4M Cash Jailbreak Account [⚡INSTANT]",
+      "category": "Account",
+      "seller": "DeepLove",
+      "qty_today": 12,
+      "qty_yesterday": 15,
+      "units_sold": 3
+    },
+    {
+      "listing_id": "c193a60d-9fc5-402b-84f2-ad2deb5ee63b",
+      "title": "2009.",
+      "category": "Account",
+      "seller": "Kaka4",
+      "qty_today": 86,
+      "qty_yesterday": 89,
+      "units_sold": 3
+    },
+    {
+      "listing_id": "c7aff0de-99e2-42e0-5e95-08de92142992",
+      "title": "🔥4 Letter UNV",
+      "category": "Account",
+      "seller": "Gamer_Arena",
+      "qty_today": 12,
+      "qty_yesterday": 14,
+      "units_sold": 2
+    },
+    {
+      "listing_id": "fb29ed6a-3d00-4309-ea61-08de8f0f89a8",
+      "title": "Blox Fruits⭐2800⭐Godhuman⭐",
+      "category": "Account",
+      "seller": "CoolLancer509",
+      "qty_today": 28,
+      "qty_yesterday": 30,
+      "units_sold": 2
+    },
+    {
+      "listing_id": "e327819c-55fa-439c-a4c3-08de992451d3",
+      "title": "BlockSpin | 1M - 1.5M Cash 💸 1,000,000 - 1,500,000 | Instant Delivery 💸",
+      "category": "Account",
+      "seller": "princedesu",
       "qty_today": 6,
       "qty_yesterday": 8,
+      "units_sold": 2
+    },
+    {
+      "listing_id": "d708bf22-e7d7-4f48-88af-08dec60e8e73",
+      "title": "Adopt Me🌰300K+ACORNS🚀350+POTS",
+      "category": "Account",
+      "seller": "AloShopAll",
+      "qty_today": 97,
+      "qty_yesterday": 99,
       "units_sold": 2
     },
     {
@@ -224,17 +287,17 @@
       "title": "💎 OG Rare 5-Letter | Clean Roblox Account + Loaded Robux",
       "category": "Account",
       "seller": "moxl",
-      "qty_today": 24,
-      "qty_yesterday": 25,
+      "qty_today": 23,
+      "qty_yesterday": 24,
       "units_sold": 1
     },
     {
-      "listing_id": "c193a60d-9fc5-402b-84f2-ad2deb5ee63b",
-      "title": "2009.",
+      "listing_id": "ac5d2483-7771-4f2f-6328-08de9c4f981d",
+      "title": "BlockSpin | 1M-1.5M Money 💸 | Instant Delivery ⚡️",
       "category": "Account",
-      "seller": "Kaka4",
-      "qty_today": 89,
-      "qty_yesterday": 90,
+      "seller": "TroyShop",
+      "qty_today": 42,
+      "qty_yesterday": 43,
       "units_sold": 1
     }
   ]
