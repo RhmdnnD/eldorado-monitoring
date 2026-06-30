@@ -1,304 +1,457 @@
 {
-  "updated_at": "2026-06-29T03:09:56.617547",
-  "date": "2026-06-29",
+  "updated_at": "2026-06-30T03:04:18.961764",
+  "date": "2026-06-30",
   "total_records": 486,
   "best_sellers": [
     {
-      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Survive Lava for Brainrots] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 7700,
+      "qty_yesterday": 80971,
+      "units_sold": 73271
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[SpongeBob Tower Defense] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 7700,
+      "qty_yesterday": 80971,
+      "units_sold": 73271
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Spin a Baddie] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 7700,
+      "qty_yesterday": 80971,
+      "units_sold": 73271
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Knockout] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 7700,
+      "qty_yesterday": 80971,
+      "units_sold": 73271
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Garden Horizons] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 7700,
+      "qty_yesterday": 80971,
+      "units_sold": 73271
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Escape Waves For Lucky Blocks] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 7700,
+      "qty_yesterday": 80971,
+      "units_sold": 73271
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Catch And Tame] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 7700,
+      "qty_yesterday": 80971,
+      "units_sold": 73271
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Case Paradise] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 7700,
+      "qty_yesterday": 80971,
+      "units_sold": 73271
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Break a Lucky Block] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 7700,
+      "qty_yesterday": 80971,
+      "units_sold": 73271
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[BlockSpin] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 7700,
+      "qty_yesterday": 80971,
+      "units_sold": 73271
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Anime Paradox] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 7700,
+      "qty_yesterday": 80971,
+      "units_sold": 73271
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Abyss] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 7700,
+      "qty_yesterday": 80971,
+      "units_sold": 73271
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Volleyball Legends] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Universal Tower Defense] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[The Forge] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Tap Simulator] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Tap Simulator Tokens] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
       "title": "[TYPE://SOUL] Unknown",
       "category": "Item",
-      "seller": "lynngameshop",
-      "qty_today": 11544,
-      "qty_yesterday": 14872,
-      "units_sold": 3328
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
     },
     {
-      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
       "title": "[Steal a Brainrot] Unknown",
       "category": "Item",
-      "seller": "lynngameshop",
-      "qty_today": 11544,
-      "qty_yesterday": 14872,
-      "units_sold": 3328
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
     },
     {
-      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Raise Animals] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
       "title": "[Plants vs Brainrots] Unknown",
       "category": "Item",
-      "seller": "lynngameshop",
-      "qty_today": 11544,
-      "qty_yesterday": 14872,
-      "units_sold": 3328
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
     },
     {
-      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Murderers VS Sheriffs DUELS] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[King Legacy] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Jujutsu Infinite] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Jailbreak] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
       "title": "[Ink Game] Unknown",
       "category": "Item",
-      "seller": "lynngameshop",
-      "qty_today": 11544,
-      "qty_yesterday": 14872,
-      "units_sold": 3328
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
     },
     {
-      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Hypershot] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
       "title": "[Hunty Zombie] Unknown",
       "category": "Item",
-      "seller": "lynngameshop",
-      "qty_today": 11544,
-      "qty_yesterday": 14872,
-      "units_sold": 3328
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
     },
     {
-      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Grow a Garden] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Grow a Garden Tokens] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Grand Piece Online] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
       "title": "[Garden Tower Defense] Unknown",
       "category": "Item",
-      "seller": "lynngameshop",
-      "qty_today": 11544,
-      "qty_yesterday": 14872,
-      "units_sold": 3328
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
     },
     {
-      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Fish It!] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Fisch S$] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Escape Tsunami For Brainrots] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Escape Tsunami For Brainrots Trade Tokens] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Devil Hunter] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
       "title": "[Dead Rails] Unknown",
       "category": "Item",
-      "seller": "lynngameshop",
-      "qty_today": 11544,
-      "qty_yesterday": 14872,
-      "units_sold": 3328
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
     },
     {
-      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Da Hood] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
       "title": "[Creatures of Sonaria] Unknown",
       "category": "Item",
-      "seller": "lynngameshop",
-      "qty_today": 11544,
-      "qty_yesterday": 14872,
-      "units_sold": 3328
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
     },
     {
-      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
       "title": "[Build a Zoo] Unknown",
       "category": "Item",
-      "seller": "lynngameshop",
-      "qty_today": 11544,
-      "qty_yesterday": 14872,
-      "units_sold": 3328
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
     },
     {
-      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Bubble Gum Simulator INFINITY] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Blue Lock: Rivals] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Bee Swarm Simulator] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Baddies] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Attack on Titan Revolution] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Anime Last Stand] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Anime Fighting Simulator: Endless] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
+      "title": "[Anime Eternal] Unknown",
+      "category": "Item",
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
+    },
+    {
+      "listing_id": "3da5898f-68f8-47de-4fd2-08dec090b44c",
       "title": "[All Star Tower Defense X] Unknown",
       "category": "Item",
-      "seller": "lynngameshop",
-      "qty_today": 11544,
-      "qty_yesterday": 14872,
-      "units_sold": 3328
-    },
-    {
-      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
-      "title": "[99 Nights in the Forest] Unknown",
-      "category": "Item",
-      "seller": "lynngameshop",
-      "qty_today": 11544,
-      "qty_yesterday": 14872,
-      "units_sold": 3328
-    },
-    {
-      "listing_id": "3651f640-2eb6-476e-8a8a-00e6e1d76cd7",
-      "title": "[99 Nights in the Forest Diamonds] Unknown",
-      "category": "Item",
-      "seller": "lynngameshop",
-      "qty_today": 11544,
-      "qty_yesterday": 14872,
-      "units_sold": 3328
-    },
-    {
-      "listing_id": "d9b78b19-c3bf-45c6-76d4-08deb63f0f23",
-      "title": "Adopt Me🌰350K+ACORNS🚀185+POTS",
-      "category": "Account",
-      "seller": "AloShopAll",
-      "qty_today": 48,
-      "qty_yesterday": 93,
-      "units_sold": 45
-    },
-    {
-      "listing_id": "2e5536df-8c49-4ec0-e6d0-08deba476139",
-      "title": "ADOPT ME🧪300 Potion💸222K BUCKS",
-      "category": "Account",
-      "seller": "EliteLoot",
-      "qty_today": 48,
-      "qty_yesterday": 86,
-      "units_sold": 38
-    },
-    {
-      "listing_id": "9157a025-2001-4fce-8ca6-d119972db262",
-      "title": "Passport ID verified👑13-15 Age Group👑Voice Chat enabled",
-      "category": "Account",
-      "seller": "Meradon",
-      "qty_today": 39,
-      "qty_yesterday": 60,
-      "units_sold": 21
-    },
-    {
-      "listing_id": "a98ae41d-386a-4e3c-0c12-08de8681c17f",
-      "title": "[Adopt Me]   140k - 200k Buck 💸 +  200 Age Up Potion 🧪  + Full Access 🗝️",
-      "category": "Account",
-      "seller": "SmartKite-GqVr",
-      "qty_today": 59,
-      "qty_yesterday": 70,
-      "units_sold": 11
-    },
-    {
-      "listing_id": "cf300710-3752-40df-304b-08ded2a6a87e",
-      "title": "Adopt Me🌰450K+ACORNS🚀300+POTS",
-      "category": "Account",
-      "seller": "AloShopAll",
-      "qty_today": 90,
-      "qty_yesterday": 100,
-      "units_sold": 10
-    },
-    {
-      "listing_id": "21e26f86-36d8-48b1-ba29-3d138e8657d4",
-      "title": "🏆 RARE 5-LETTER OG | Roblox Account + Robux Loaded 💎",
-      "category": "Account",
-      "seller": "moxl",
-      "qty_today": 23,
-      "qty_yesterday": 30,
-      "units_sold": 7
-    },
-    {
-      "listing_id": "0ba27387-4690-4db1-5719-08de841980ae",
-      "title": "Blox Fruits | 2800 | GodHuman | Gas Inventory",
-      "category": "Account",
-      "seller": "StarExeon",
-      "qty_today": 28,
-      "qty_yesterday": 34,
-      "units_sold": 6
-    },
-    {
-      "listing_id": "2fe06d55-f7be-4ad7-3157-08ded36678d8",
-      "title": "Blox Fruits I ✨ Max lvl 2800 + Godhuman ✨ I Unverified I Instant Delivery ✨",
-      "category": "Account",
-      "seller": "Zenthrox",
-      "qty_today": 67,
-      "qty_yesterday": 73,
-      "units_sold": 6
-    },
-    {
-      "listing_id": "1f568f0c-49b7-4679-54d6-08de914b3933",
-      "title": "✅[Blox Fruits] CDK⭐SG⭐VH⭐MF⭐GODHUMAN⭐LVL 2800⭐All Details Changeable⭐",
-      "category": "Account",
-      "seller": "TAceOfSpades",
-      "qty_today": 25,
-      "qty_yesterday": 29,
-      "units_sold": 4
-    },
-    {
-      "listing_id": "ab5e5578-48d5-4eab-7420-08de80cf19a5",
-      "title": "Blox Fruits | Kitsune Inventory",
-      "category": "Account",
-      "seller": "StarExeon",
-      "qty_today": 7,
-      "qty_yesterday": 11,
-      "units_sold": 4
-    },
-    {
-      "listing_id": "c7d3f440-81a7-48c8-163d-08de80cf18c8",
-      "title": "Adopt me⭐100 Crystal Eggs⭐",
-      "category": "Account",
-      "seller": "CoolLancer509",
-      "qty_today": 8,
-      "qty_yesterday": 12,
-      "units_sold": 4
-    },
-    {
-      "listing_id": "4a9dafac-accf-4f17-9505-cf68ecf6ca6e",
-      "title": "4 Letter ⚡️",
-      "category": "Account",
-      "seller": "SupplyMarkt",
-      "qty_today": 2,
-      "qty_yesterday": 6,
-      "units_sold": 4
-    },
-    {
-      "listing_id": "7886d2a7-bd35-48fe-87a2-b0239e8c0121",
-      "title": "🔥 Roblox Account | Created 2009 | Clean • Original • Instant Delivery",
-      "category": "Account",
-      "seller": "Securer",
-      "qty_today": 4,
-      "qty_yesterday": 7,
-      "units_sold": 3
-    },
-    {
-      "listing_id": "4957bf2f-94bc-4a2c-82a2-08de7dd263af",
-      "title": "4M Cash Jailbreak Account [⚡INSTANT]",
-      "category": "Account",
-      "seller": "DeepLove",
-      "qty_today": 12,
-      "qty_yesterday": 15,
-      "units_sold": 3
-    },
-    {
-      "listing_id": "c193a60d-9fc5-402b-84f2-ad2deb5ee63b",
-      "title": "2009.",
-      "category": "Account",
-      "seller": "Kaka4",
-      "qty_today": 86,
-      "qty_yesterday": 89,
-      "units_sold": 3
-    },
-    {
-      "listing_id": "c7aff0de-99e2-42e0-5e95-08de92142992",
-      "title": "🔥4 Letter UNV",
-      "category": "Account",
-      "seller": "Gamer_Arena",
-      "qty_today": 12,
-      "qty_yesterday": 14,
-      "units_sold": 2
-    },
-    {
-      "listing_id": "fb29ed6a-3d00-4309-ea61-08de8f0f89a8",
-      "title": "Blox Fruits⭐2800⭐Godhuman⭐",
-      "category": "Account",
-      "seller": "CoolLancer509",
-      "qty_today": 28,
-      "qty_yesterday": 30,
-      "units_sold": 2
-    },
-    {
-      "listing_id": "e327819c-55fa-439c-a4c3-08de992451d3",
-      "title": "BlockSpin | 1M - 1.5M Cash 💸 1,000,000 - 1,500,000 | Instant Delivery 💸",
-      "category": "Account",
-      "seller": "princedesu",
-      "qty_today": 6,
-      "qty_yesterday": 8,
-      "units_sold": 2
-    },
-    {
-      "listing_id": "d708bf22-e7d7-4f48-88af-08dec60e8e73",
-      "title": "Adopt Me🌰300K+ACORNS🚀350+POTS",
-      "category": "Account",
-      "seller": "AloShopAll",
-      "qty_today": 97,
-      "qty_yesterday": 99,
-      "units_sold": 2
-    },
-    {
-      "listing_id": "e79cd107-16b8-407b-8e2d-08deb250854c",
-      "title": "💎 OG Rare 5-Letter | Clean Roblox Account + Loaded Robux",
-      "category": "Account",
-      "seller": "moxl",
-      "qty_today": 23,
-      "qty_yesterday": 24,
-      "units_sold": 1
-    },
-    {
-      "listing_id": "ac5d2483-7771-4f2f-6328-08de9c4f981d",
-      "title": "BlockSpin | 1M-1.5M Money 💸 | Instant Delivery ⚡️",
-      "category": "Account",
-      "seller": "TroyShop",
-      "qty_today": 42,
-      "qty_yesterday": 43,
-      "units_sold": 1
+      "seller": "MattDot",
+      "qty_today": 13200,
+      "qty_yesterday": 80971,
+      "units_sold": 67771
     }
   ]
 }
